@@ -46,7 +46,6 @@ body{
 .link a:hover, .link.active a{
     opacity: 1;
 }
-
 .home-section{
     width: 100%;
     height: 100vh;
@@ -487,4 +486,61 @@ body{
     width: 100%;
     height: 100%;
     border-radius: 5px;
+}
+
+.list_burger {
+    display: none;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width:800px) {
+    .navbar{
+        display: none;
+    }
+    .list_burger {
+        display: inline-block;
+        cursor: pointer;
+        position: sticky;
+        top: 0.7vh;
+        left: 87vw;
+        z-index: 999;
+    }
+    
+    .bar1,
+    .bar2,
+    .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: white;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+    
+    .changes .bar1 {
+        transform: rotate(-45deg) translate(-9px, 6px);
+        /* transform: rotate(-45deg) translate(-9px, 6px); */
+    }
+    
+    .changes .bar2 {
+        opacity: 0;
+    }
+    
+    .changes .bar3 {
+        transform: rotate(45deg) translate(-8px, -8px);
+        /* transform: rotate(45deg) translate(-8px, -8px); */
+    }
+    
+    .changes .navbar{
+        display: block;
+    }
+
+    .changes .link-group{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+
 }

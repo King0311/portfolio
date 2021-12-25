@@ -17,3 +17,9 @@ links.forEach((link, i) => {
         }
     })
 })
+
+
+const change=()=>{
+    document.body.classList.toggle("changes");
+    // console.log("clicked")
+    }
