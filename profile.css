@@ -599,7 +599,7 @@ body{
     }
     .about-heading{
         font-size: 4vh;
-        margin: 16vh 0vw 6vh 0vw;
+        margin: 25vh 0vw 6vh 0vw;
     }
     .about{
         width: 100%;
@@ -638,4 +638,5 @@ body{
     
 
 
+    
 }
