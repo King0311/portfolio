@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* overflow-x: hidden; */
 }
 
 body{
@@ -60,7 +61,7 @@ body{
 
 .hero-heading{
     color: #fff;
-    font-size: 120px;
+    font-size: 12vw;
     text-transform: capitalize;
     font-weight: 300;
 }
@@ -94,7 +95,7 @@ body{
 }
 
 .project-heading{
-    font-size: 100px;
+    font-size: 7vw;
     background: #252525;
     text-transform: capitalize;
     text-align: center;
@@ -135,7 +136,7 @@ body{
 }
 
 .project-title{
-    font-size: 50px;
+    font-size: 5vw;
     text-transform: capitalize;
     text-align: center;
     font-weight: 300;
@@ -143,7 +144,7 @@ body{
 
 .project-info{
     margin: 40px;
-    font-size: 20px;
+    font-size: 2vw;
     line-height: 30px;
     text-align: center;
 }
@@ -172,18 +173,27 @@ body{
 .project-card:hover .project-img{
     filter: blur(20px);
 }
-
 .project-card:hover .project-content{
     opacity: 1;
 }
+
 .about-section{
     width: 100%;
     min-height: 100vh;
-    padding: 150px 100px 0;
+    padding: 50px 100px 0;
     position: fixed;
     top: 0;
     opacity: 0;
     transition: 1s;
+}
+
+.about-heading{
+    font-size: 4vw;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 100px;
 }
 
 .about{
@@ -200,7 +210,7 @@ body{
 .about-info{
     color: #fff;
     opacity: 0.6;
-    font-size: 20px;
+    font-size: 1.7vw;
     line-height: 40px;
 }
 
@@ -237,7 +247,7 @@ body{
 
 .heading{
     text-align: center;
-    font-size: 60px;
+    font-size: 4vw;
     color: #fff;
     text-transform: capitalize;
     font-weight: 300;
@@ -264,7 +274,7 @@ body{
 }
 
 .skill-name{
-    font-size: 30px;
+    font-size: 3vw;
     font-weight: 300;
     text-align: center;
     text-transform: capitalize;
@@ -274,7 +284,7 @@ body{
 .skill-info{
     text-align: center;
     opacity: 0.5;
-    font-size: 18px;
+    font-size: 2vw;
     line-height: 30px;
 }
 
@@ -423,7 +433,7 @@ body{
 }
 
 .card-title{
-    font-size: 30px;
+    font-size: 3vw;
     font-weight: 300;
     margin-bottom: 20px;
 }
@@ -540,6 +550,91 @@ body{
         display: flex;
         flex-direction: column;
     }
+
+    .home-section{
+        display: block;
+        width: 100%;
+        height: 50vh;
+        padding: 0 50px;
+        margin-top: 20px;
+
+    }
+    .hero-heading{
+        color: #ffffff;
+        padding: 20vh 0px 0px 0px;
+        font-size: 14vw;
+        text-transform: capitalize;
+        font-weight: 300;
+    }
+    
+    .home-img{
+        height: 50vh;
+        width: 100vw;
+    }
+    .project-section{
+        width: 100%;
+        height: 40vh;
+        padding: 50px 10px ;
+    }
+    .project-heading{
+        font-size: 7vh;
+    }
+    .project-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .project-card{
+        height: 40vh
+    }
+    .project-title{
+        font-size: 5vh;
+    }
+    .project-info{
+        font-size: 2vh;
+    }
+    .about-section{
+        width: 100%;
+        height: auto;
+        padding: 5vh 5vw ;
+    }
+    .about-heading{
+        font-size: 4vh;
+        margin: 16vh 0vw 6vh 0vw;
+    }
+    .about{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-info{
+        font-size: 1.7vh;
+        text-align: center;
+    }
+    .heading{
+        font-size: 4vh;
+    }
+    .skills-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .skill-name{
+        font-size: 3vh;
+    }
+    .skill-info{
+        font-size: 2vh;
+    }
+    .card-title{
+        font-size: 3vh;
+    }
+    .contact-section{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 15px;
+    }
+
+    
+
+
     
 
 
