@@ -149,26 +149,30 @@ body{
     text-align: center;
 }
 
-.project-btn-grp{
+/* .project-btn-grp{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
-}
+} */
 
-.project-btn{
-    height: 40px;
+.project-btn-grp{
+    /* height: 40px; */
     text-transform: capitalize;
     font-size: 18px;
     border: none;
-    background: #000;
-    color: #fff;
+    background-color: #000;
     cursor: pointer;
+    text-align: center;
+}
+.project-btn-github{
+    color: white;
+    background-color: #000;
+    font-size: 18px;
+    padding: 10px;
+
 }
 
-.project-btn.live{
-    background: none;
-    border: 2px solid #fff;
-}
+
 
 .project-card:hover .project-img{
     filter: blur(20px);
