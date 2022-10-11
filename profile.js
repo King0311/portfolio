@@ -1,25 +1,31 @@
-const links = document.querySelectorAll('.link');
-const sections = document.querySelectorAll('section');
-
-let activeLink = 0;
-
-links.forEach((link, i) => {
-    link.addEventListener('click', () => {
-        if(activeLink != i){
-            links[activeLink].classList.remove('active');
-            link.classList.add('active');
-            sections[activeLink].classList.remove('active');
-
-            setTimeout(() => {
-                activeLink = i;
-                sections[i].classList.add('active');
-            }, 1000);
-        }
-    })
-})
-
-
 const change=()=>{
     document.body.classList.toggle("changes");
-    // console.log("clicked")
     }
+
+const gotohome=()=>{
+    window.scroll({
+        top: 0,
+        behavior: "smooth", 
+      });
+};
+
+const gotoproject=()=>{
+    window.scroll({
+        top: 600,
+        behavior: "smooth", 
+      });
+};
+
+const gotoskills=()=>{
+    window.scroll({
+        top: 1700,
+        behavior: "smooth", 
+      });
+};
+
+const gotocontact=()=>{
+    window.scroll({
+        top: 2900,
+        behavior: "smooth", 
+      });
+};
