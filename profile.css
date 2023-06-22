@@ -106,7 +106,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  object-fit: contain;
+  object-fit: cover;
   transition: 0.5s;
 }
 
