@@ -3,29 +3,29 @@ const change=()=>{
     }
 
 const gotohome=()=>{
-    window.scroll({
+    window.scrollTo({
         top: 0,
         behavior: "smooth", 
       });
 };
 
 const gotoproject=()=>{
-    window.scroll({
+    window.scrollTo({
         top: 600,
         behavior: "smooth", 
       });
 };
 
 const gotoskills=()=>{
-    window.scroll({
-        top: 1700,
+    window.scrollTo({
+        top: 2200,
         behavior: "smooth", 
       });
 };
 
 const gotocontact=()=>{
-    window.scroll({
-        top: 2900,
+    window.scrollTo({
+        top: 10000,
         behavior: "smooth", 
       });
 };
