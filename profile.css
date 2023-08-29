@@ -148,6 +148,11 @@ body {
   padding: 10px;
 }
 
+.project-btn-github a{
+  text-decoration:None;
+  color:white;
+}
+
 .project-card:hover .project-img {
   filter: blur(20px);
 }
